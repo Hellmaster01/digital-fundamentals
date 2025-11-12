@@ -1,4 +1,5 @@
 #!/bin/bash
+
 for file in $(ls $1)
 do
     for info in $(cat $1$file)
